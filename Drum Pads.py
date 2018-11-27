@@ -12,6 +12,7 @@ class ExamleApp(QtWidgets.QMainWindow,design.Ui_MainWindow):
         self.pushButton_4.clicked.connect(self.click2)
         self.pushButton_5.clicked.connect(self.click3)
         self.pushButton_7.clicked.connect(self.click4)
+        self.a = 14
 
     def click0(self):
         threading.Thread(target=self.sound0, args=()).start()
